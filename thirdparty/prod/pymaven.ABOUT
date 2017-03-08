@@ -1,0 +1,12 @@
+about_resource: pyparsing-2.1.10-py2.py3-none-any.whl
+name: pymaven
+version: 0.1.0 
+home_url: https://github.com/sassoftware/pymaven 
+owner: Walter Scheper
+copyright: Copyright (c) SAS Institute Inc.
+
+vcs_tool: git
+vcs_repository: https://github.com/sassoftware/pymaven
+
+dje_license: apache-2.0
+license_text_file: pymaven.LICENSE
