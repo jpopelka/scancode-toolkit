@@ -31,7 +31,10 @@ import os.path
 from os.path import dirname
 from os.path import join
 import re
+from lxml import etree
 
+from pymaven import pom
+from pymaven.client import MavenClient
 from commoncode import filetype
 from commoncode import fileutils
 from typecode import contenttype
@@ -58,7 +61,6 @@ Attempts to resolve some Maven properties when possible.
 # or Maven1 support dropped entirely
 
 
-
 class MavenJar(models.JavaJar):
     metafiles = ('META-INF/**/*.pom', 'pom.xml',)
     repo_types = (models.repo_maven,)
@@ -69,6 +71,28 @@ class MavenJar(models.JavaJar):
     def recognize(cls, location):
         return parse(location)
 
+
+class PyMaven(pom.Pom):
+    def __init__(self, pom_location):
+        with open(pom_location) as fh:
+            xml = fh.read()
+        self._xml = etree.fromstring(
+            pom.STRIP_NAMESPACE_RE.sub('<project>', xml[xml.find('<project'):], 1),
+            parser=pom.POM_PARSER,
+            )
+        self._client = None
+
+        # dynamic attributes
+        self._parent = None
+        self._dep_mgmt = None
+        self._dependencies = None
+        self._properties = None
+        self.artifact_id = None
+        self.group_id = None
+        self.version = None
+
+    def _pom_factory(self, group, artifact, version):
+        return None
 
 # Maven1 field name -> xpath
 MAVEN1_FIELDS = [
