@@ -37,6 +37,7 @@ from commoncode import fileutils
 
 from packagedcode import maven
 from packagedcode import xmlutils
+from packagedcode.maven import PyMaven
 
 
 class BaseMavenCase(testcase.FileBasedTesting):
@@ -385,6 +386,16 @@ class TestMavenPom(BaseMavenCase):
     def test_parse_pom_activemq_camel(self):
         self.check_pom('maven/maven2/activemq-camel-pom.xml',
                        'maven/expectations/activemq-camel-pom.xml.json', regen=False)
+
+
+class TestPyMaven(BaseMavenCase):
+    test_data_dir = os.path.join(os.path.dirname(__file__), 'data')
+
+    def test_parse_pom_activemq_camel(self):
+        test_loc = self.get_test_loc('maven/maven2/activemq-camel-pom.xml')
+        pymaven = PyMaven(test_loc)
+        expected = set([(('${project.groupId}', 'activemq-core', 'latest.release'), True), (('commons-logging', 'commons-logging-api', 'latest.release'), True), (('org.apache.camel', 'camel-jms', 'latest.release'), True), (('org.apache.camel', 'camel-spring', 'latest.release'), True), (('junit', 'junit', 'latest.release'), True), (('org.springframework', 'spring-test', 'latest.release'), True), (('org.apache.camel', 'camel-core', 'latest.release'), True), (('${project.groupId}', 'activemq-pool', 'latest.release'), True), (('org.hamcrest', 'hamcrest-all', 'latest.release'), True), (('org.apache.geronimo.specs', 'geronimo-annotation_1.0_spec', 'latest.release'), False)])
+        assert pymaven.get_dependencies()== expected
 
 
 class TestMavenPackage(BaseMavenCase):
