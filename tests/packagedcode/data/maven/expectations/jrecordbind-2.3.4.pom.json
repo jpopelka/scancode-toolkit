@@ -10,6 +10,32 @@
   "maven_license_url": [
     "http://www.gnu.org/copyleft/lesser.html"
   ], 
+  "maven_dependencies": [
+    {
+      "maven_dependency_groupid": "com.sun.xml.bind", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "2.1.11", 
+      "maven_dependency_artifactid": "jaxb-xjc"
+    }, 
+    {
+      "maven_dependency_groupid": "com.sun.xsom", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "20081112", 
+      "maven_dependency_artifactid": "xsom"
+    }, 
+    {
+      "maven_dependency_groupid": "relaxngDatatype", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "20020414", 
+      "maven_dependency_artifactid": "relaxngDatatype"
+    }, 
+    {
+      "maven_dependency_groupid": "com.sun.xml.bind", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "2.1.11", 
+      "maven_dependency_artifactid": "jaxb-impl"
+    }
+  ], 
   "maven_repository_url_1": [], 
   "maven_repository_name": [
     "Java.net Maven 2 Repository"

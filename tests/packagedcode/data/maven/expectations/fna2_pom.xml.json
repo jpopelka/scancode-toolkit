@@ -6,6 +6,68 @@
   ], 
   "maven_project_short_description_1": [], 
   "maven_license_url": [], 
+  "maven_dependencies": [
+    {
+      "maven_dependency_groupid": "com.adobe.flexunit", 
+      "maven_dependency_scope": "test", 
+      "maven_dependency_version": "${flexUnit.version}", 
+      "maven_dependency_artifactid": "flexunit-optional"
+    }, 
+    {
+      "maven_dependency_groupid": "info.flex-mojos", 
+      "maven_dependency_scope": "test", 
+      "maven_dependency_version": "${flex-mojos.version}", 
+      "maven_dependency_artifactid": "testing-support"
+    }, 
+    {
+      "maven_dependency_groupid": "com.adobe.flexunit", 
+      "maven_dependency_scope": "test", 
+      "maven_dependency_version": "${flexUnit.version}", 
+      "maven_dependency_artifactid": "flexunit"
+    }, 
+    {
+      "maven_dependency_groupid": "${project.groupId}", 
+      "maven_dependency_scope": "provided", 
+      "maven_dependency_version": "None", 
+      "maven_dependency_artifactid": "blazeds_service_config"
+    }, 
+    {
+      "maven_dependency_groupid": "${project.groupId}", 
+      "maven_dependency_scope": "internal", 
+      "maven_dependency_version": "None", 
+      "maven_dependency_artifactid": "flex_remoted_objects"
+    }, 
+    {
+      "maven_dependency_groupid": "com.adobe.flex.framework", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "${flex.sdk.version}", 
+      "maven_dependency_artifactid": "flex-framework"
+    }, 
+    {
+      "maven_dependency_groupid": "com.adobe.cairngorm", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "${cairngorm.version}", 
+      "maven_dependency_artifactid": "cairngorm"
+    }, 
+    {
+      "maven_dependency_groupid": "com.adobe.lcds", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "${lcds.version}", 
+      "maven_dependency_artifactid": "fds"
+    }, 
+    {
+      "maven_dependency_groupid": "com.adobe.flex", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "${flex.sdk.version}", 
+      "maven_dependency_artifactid": "compiler"
+    }, 
+    {
+      "maven_dependency_groupid": "com.adobe.cairngorm", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "${cairngorm.version}", 
+      "maven_dependency_artifactid": "cairngorm-enterprise"
+    }
+  ], 
   "maven_repository_url_1": [], 
   "maven_repository_name": [], 
   "maven_component_classifier": [], 

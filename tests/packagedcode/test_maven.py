@@ -74,7 +74,6 @@ class BaseMavenCase(testcase.FileBasedTesting):
                 compressed.write(uncompressed.read())
         return target_loc
 
-
     def check_pom(self, test_pom_loc, expected_json_loc, regen=False):
         if not os.path.isabs(test_pom_loc):
             test_pom_loc = self.get_test_loc(test_pom_loc)
@@ -394,8 +393,10 @@ class TestPyMaven(BaseMavenCase):
     def test_parse_pom_activemq_camel(self):
         test_loc = self.get_test_loc('maven/maven2/activemq-camel-pom.xml')
         pymaven = PyMaven(test_loc)
-        expected = set([(('${project.groupId}', 'activemq-core', 'latest.release'), True), (('commons-logging', 'commons-logging-api', 'latest.release'), True), (('org.apache.camel', 'camel-jms', 'latest.release'), True), (('org.apache.camel', 'camel-spring', 'latest.release'), True), (('junit', 'junit', 'latest.release'), True), (('org.springframework', 'spring-test', 'latest.release'), True), (('org.apache.camel', 'camel-core', 'latest.release'), True), (('${project.groupId}', 'activemq-pool', 'latest.release'), True), (('org.hamcrest', 'hamcrest-all', 'latest.release'), True), (('org.apache.geronimo.specs', 'geronimo-annotation_1.0_spec', 'latest.release'), False)])
-        assert pymaven.get_dependencies()== expected
+        expected = {'compile': set([(('commons-logging', 'commons-logging-api', 'latest.release'), True), (('${project.groupId}', 'activemq-core', 'latest.release'), True), (('${project.groupId}', 'activemq-pool', 'latest.release'), True), (('org.apache.camel', 'camel-jms', 'latest.release'), True), (('org.apache.geronimo.specs', 'geronimo-annotation_1.0_spec', 'latest.release'), False)]), 'test': set(
+            [(('${project.groupId}', 'activemq-core', 'latest.release'), True), (('org.apache.camel', 'camel-spring', 'latest.release'), True), (('org.springframework', 'spring-test', 'latest.release'), True), (('org.apache.camel', 'camel-core', 'latest.release'), True), (('junit', 'junit', 'latest.release'), True), (('org.hamcrest', 'hamcrest-all', 'latest.release'), True)])}
+
+        assert expected == pymaven.dependencies
 
 
 class TestMavenPackage(BaseMavenCase):

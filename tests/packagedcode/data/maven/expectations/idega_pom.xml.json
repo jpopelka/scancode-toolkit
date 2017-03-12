@@ -6,6 +6,32 @@
   ], 
   "maven_project_short_description_1": [], 
   "maven_license_url": [], 
+  "maven_dependencies": [
+    {
+      "maven_dependency_groupid": "itext", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "${itext-itext-xml-version}", 
+      "maven_dependency_artifactid": "itext-xml"
+    }, 
+    {
+      "maven_dependency_groupid": "itextpdf", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "${itextpdf-itext-paulo-version}", 
+      "maven_dependency_artifactid": "itext-paulo"
+    }, 
+    {
+      "maven_dependency_groupid": "com.idega.block.platform", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "latest.release", 
+      "maven_dependency_artifactid": "com.idega.core"
+    }, 
+    {
+      "maven_dependency_groupid": "com.idega.block.platform", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "latest.release", 
+      "maven_dependency_artifactid": "com.idega.block.media"
+    }
+  ], 
   "maven_repository_url_1": [], 
   "maven_repository_name": [], 
   "maven_component_classifier": [], 

@@ -10,6 +10,44 @@
   "maven_license_url": [
     "http://www.apache.org/licenses/LICENSE-2.0"
   ], 
+  "maven_dependencies": [
+    {
+      "maven_dependency_groupid": "bloxx", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "0.30-SNAPSHOT", 
+      "maven_dependency_artifactid": "juno"
+    }, 
+    {
+      "maven_dependency_groupid": "junit", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "3.8.1", 
+      "maven_dependency_artifactid": "junit"
+    }, 
+    {
+      "maven_dependency_groupid": "asm", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "2.1", 
+      "maven_dependency_artifactid": "asm"
+    }, 
+    {
+      "maven_dependency_groupid": "asm", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "2.1", 
+      "maven_dependency_artifactid": "asm-commons"
+    }, 
+    {
+      "maven_dependency_groupid": "asm", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "2.1", 
+      "maven_dependency_artifactid": "asm-attrs"
+    }, 
+    {
+      "maven_dependency_groupid": "asm", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "2.1", 
+      "maven_dependency_artifactid": "asm-tree"
+    }
+  ], 
   "maven_repository_url_1": [
     "http://jen.dev.java.net/source/browse/jen/"
   ], 

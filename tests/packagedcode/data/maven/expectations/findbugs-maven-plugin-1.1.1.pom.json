@@ -10,6 +10,38 @@
   "maven_license_url": [
     "LICENSE.txt"
   ], 
+  "maven_dependencies": [
+    {
+      "maven_dependency_groupid": "org.apache.maven.reporting", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "2.0.4", 
+      "maven_dependency_artifactid": "maven-reporting-impl"
+    }, 
+    {
+      "maven_dependency_groupid": "org.apache.maven.reporting", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "2.0.4", 
+      "maven_dependency_artifactid": "maven-reporting-api"
+    }, 
+    {
+      "maven_dependency_groupid": "net.sourceforge.findbugs", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "1.2.0", 
+      "maven_dependency_artifactid": "findbugs"
+    }, 
+    {
+      "maven_dependency_groupid": "org.apache.maven.doxia", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "1.0-alpha-8", 
+      "maven_dependency_artifactid": "doxia-core"
+    }, 
+    {
+      "maven_dependency_groupid": "org.apache.maven", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "2.0.4", 
+      "maven_dependency_artifactid": "maven-artifact"
+    }
+  ], 
   "maven_repository_url_1": [], 
   "maven_repository_name": [], 
   "maven_component_classifier": [], 

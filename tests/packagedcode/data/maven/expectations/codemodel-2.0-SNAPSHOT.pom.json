@@ -8,6 +8,7 @@
     "Java source code generation library"
   ], 
   "maven_license_url": [], 
+  "maven_dependencies": [], 
   "maven_repository_url_1": [
     "https://maven2-repository.dev.java.net/source/browse/maven2-repository"
   ], 

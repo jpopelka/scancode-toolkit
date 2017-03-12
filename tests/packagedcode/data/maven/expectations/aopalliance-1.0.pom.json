@@ -8,6 +8,7 @@
   "maven_license_url": [
     "http://nexb.com"
   ], 
+  "maven_dependencies": [], 
   "maven_repository_url_1": [], 
   "maven_repository_name": [], 
   "maven_component_classifier": [], 
