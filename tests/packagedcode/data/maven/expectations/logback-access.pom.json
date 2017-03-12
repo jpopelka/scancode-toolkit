@@ -10,6 +10,38 @@
   "maven_license_url": [
     "http://www.gnu.org/licenses/lgpl.html"
   ], 
+  "maven_dependencies": [
+    {
+      "maven_dependency_groupid": "tomcat", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "latest.release", 
+      "maven_dependency_artifactid": "catalina"
+    }, 
+    {
+      "maven_dependency_groupid": "org.mortbay.jetty", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "latest.release", 
+      "maven_dependency_artifactid": "jetty"
+    }, 
+    {
+      "maven_dependency_groupid": "com.caucho", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "latest.release", 
+      "maven_dependency_artifactid": "resin"
+    }, 
+    {
+      "maven_dependency_groupid": "ch.qos.logback", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "latest.release", 
+      "maven_dependency_artifactid": "logback-core"
+    }, 
+    {
+      "maven_dependency_groupid": "org.mortbay.jetty", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "latest.release", 
+      "maven_dependency_artifactid": "servlet-api-2.5"
+    }
+  ], 
   "maven_repository_url_1": [], 
   "maven_repository_name": [], 
   "maven_component_classifier": [], 

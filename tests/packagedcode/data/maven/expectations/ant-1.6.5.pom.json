@@ -4,6 +4,20 @@
   "maven_component_artifact_id": [], 
   "maven_project_short_description_1": [], 
   "maven_license_url": [], 
+  "maven_dependencies": [
+    {
+      "maven_dependency_groupid": "xml-apis", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "1.3.04", 
+      "maven_dependency_artifactid": "xml-apis"
+    }, 
+    {
+      "maven_dependency_groupid": "xerces", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "2.6.2", 
+      "maven_dependency_artifactid": "xercesImpl"
+    }
+  ], 
   "maven_repository_url_1": [], 
   "maven_repository_name": [], 
   "maven_component_classifier": [], 

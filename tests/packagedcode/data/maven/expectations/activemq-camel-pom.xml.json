@@ -6,6 +6,74 @@
   ], 
   "maven_project_short_description_1": [], 
   "maven_license_url": [], 
+  "maven_dependencies": [
+    {
+      "maven_dependency_groupid": "commons-logging", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "latest.release", 
+      "maven_dependency_artifactid": "commons-logging-api"
+    }, 
+    {
+      "maven_dependency_groupid": "${project.groupId}", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "latest.release", 
+      "maven_dependency_artifactid": "activemq-core"
+    }, 
+    {
+      "maven_dependency_groupid": "${project.groupId}", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "latest.release", 
+      "maven_dependency_artifactid": "activemq-pool"
+    }, 
+    {
+      "maven_dependency_groupid": "org.apache.camel", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "latest.release", 
+      "maven_dependency_artifactid": "camel-jms"
+    }, 
+    {
+      "maven_dependency_groupid": "org.apache.geronimo.specs", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "latest.release", 
+      "maven_dependency_artifactid": "geronimo-annotation_1.0_spec"
+    }, 
+    {
+      "maven_dependency_groupid": "${project.groupId}", 
+      "maven_dependency_scope": "test", 
+      "maven_dependency_version": "latest.release", 
+      "maven_dependency_artifactid": "activemq-core"
+    }, 
+    {
+      "maven_dependency_groupid": "org.apache.camel", 
+      "maven_dependency_scope": "test", 
+      "maven_dependency_version": "latest.release", 
+      "maven_dependency_artifactid": "camel-spring"
+    }, 
+    {
+      "maven_dependency_groupid": "org.springframework", 
+      "maven_dependency_scope": "test", 
+      "maven_dependency_version": "latest.release", 
+      "maven_dependency_artifactid": "spring-test"
+    }, 
+    {
+      "maven_dependency_groupid": "org.apache.camel", 
+      "maven_dependency_scope": "test", 
+      "maven_dependency_version": "latest.release", 
+      "maven_dependency_artifactid": "camel-core"
+    }, 
+    {
+      "maven_dependency_groupid": "junit", 
+      "maven_dependency_scope": "test", 
+      "maven_dependency_version": "latest.release", 
+      "maven_dependency_artifactid": "junit"
+    }, 
+    {
+      "maven_dependency_groupid": "org.hamcrest", 
+      "maven_dependency_scope": "test", 
+      "maven_dependency_version": "latest.release", 
+      "maven_dependency_artifactid": "hamcrest-all"
+    }
+  ], 
   "maven_repository_url_1": [], 
   "maven_repository_name": [], 
   "maven_component_classifier": [], 

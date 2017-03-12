@@ -10,6 +10,398 @@
   "maven_license_url": [
     "http://www.apache.org/licenses/LICENSE-2.0.txt"
   ], 
+  "maven_dependencies": [
+    {
+      "maven_dependency_groupid": "backport-util-concurrent", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "3.0", 
+      "maven_dependency_artifactid": "backport-util-concurrent"
+    }, 
+    {
+      "maven_dependency_groupid": "org.apache.axis", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "1.4", 
+      "maven_dependency_artifactid": "axis"
+    }, 
+    {
+      "maven_dependency_groupid": "freemarker", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "2.3.12", 
+      "maven_dependency_artifactid": "freemarker"
+    }, 
+    {
+      "maven_dependency_groupid": "commons-pool", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "1.3", 
+      "maven_dependency_artifactid": "commons-pool"
+    }, 
+    {
+      "maven_dependency_groupid": "com.oracle.toplink", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "10.1.3", 
+      "maven_dependency_artifactid": "toplink"
+    }, 
+    {
+      "maven_dependency_groupid": "org.apache.ibatis", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "2.3.0.677", 
+      "maven_dependency_artifactid": "ibatis-sqlmap"
+    }, 
+    {
+      "maven_dependency_groupid": "jasperreports", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "2.0.5", 
+      "maven_dependency_artifactid": "jasperreports"
+    }, 
+    {
+      "maven_dependency_groupid": "asm", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "2.2.3", 
+      "maven_dependency_artifactid": "asm"
+    }, 
+    {
+      "maven_dependency_groupid": "commons-beanutils", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "1.7.0", 
+      "maven_dependency_artifactid": "commons-beanutils"
+    }, 
+    {
+      "maven_dependency_groupid": "commons-attributes", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "2.2", 
+      "maven_dependency_artifactid": "commons-attributes-api"
+    }, 
+    {
+      "maven_dependency_groupid": "asm", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "2.2.3", 
+      "maven_dependency_artifactid": "asm-commons"
+    }, 
+    {
+      "maven_dependency_groupid": "commons-attributes", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "2.2", 
+      "maven_dependency_artifactid": "commons-attributes-compiler"
+    }, 
+    {
+      "maven_dependency_groupid": "asm", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "2.2.3", 
+      "maven_dependency_artifactid": "asm-util"
+    }, 
+    {
+      "maven_dependency_groupid": "org.hibernate", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "3.2.6.ga", 
+      "maven_dependency_artifactid": "hibernate"
+    }, 
+    {
+      "maven_dependency_groupid": "aopalliance", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "1.0", 
+      "maven_dependency_artifactid": "aopalliance"
+    }, 
+    {
+      "maven_dependency_groupid": "org.apache.tiles", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "2.0.5", 
+      "maven_dependency_artifactid": "tiles-jsp"
+    }, 
+    {
+      "maven_dependency_groupid": "poi", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "3.0.1", 
+      "maven_dependency_artifactid": "poi"
+    }, 
+    {
+      "maven_dependency_groupid": "cglib", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "2.1_3", 
+      "maven_dependency_artifactid": "cglib-nodep"
+    }, 
+    {
+      "maven_dependency_groupid": "opensymphony", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "1.6.0", 
+      "maven_dependency_artifactid": "quartz-all"
+    }, 
+    {
+      "maven_dependency_groupid": "taglibs", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "1.1.2", 
+      "maven_dependency_artifactid": "standard"
+    }, 
+    {
+      "maven_dependency_groupid": "com.bea.wlplatform", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "1.1", 
+      "maven_dependency_artifactid": "commonj-twm"
+    }, 
+    {
+      "maven_dependency_groupid": "log4j", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "1.2.15", 
+      "maven_dependency_artifactid": "log4j"
+    }, 
+    {
+      "maven_dependency_groupid": "tomcat", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "5.5.23", 
+      "maven_dependency_artifactid": "catalina"
+    }, 
+    {
+      "maven_dependency_groupid": "com.oracle", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "2.41", 
+      "maven_dependency_artifactid": "toplink-essentials"
+    }, 
+    {
+      "maven_dependency_groupid": "org.beanshell", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "2.0b4", 
+      "maven_dependency_artifactid": "bsh"
+    }, 
+    {
+      "maven_dependency_groupid": "commons-collections", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "3.2", 
+      "maven_dependency_artifactid": "commons-collections"
+    }, 
+    {
+      "maven_dependency_groupid": "org.apache.tiles", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "2.0.5", 
+      "maven_dependency_artifactid": "tiles-api"
+    }, 
+    {
+      "maven_dependency_groupid": "hessian", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "3.1.3", 
+      "maven_dependency_artifactid": "hessian"
+    }, 
+    {
+      "maven_dependency_groupid": "net.sf.ehcache", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "1.4.1", 
+      "maven_dependency_artifactid": "ehcache"
+    }, 
+    {
+      "maven_dependency_groupid": "com.experlog", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "1.5.0", 
+      "maven_dependency_artifactid": "xapool"
+    }, 
+    {
+      "maven_dependency_groupid": "groovy", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "1.5.5", 
+      "maven_dependency_artifactid": "groovy"
+    }, 
+    {
+      "maven_dependency_groupid": "com.jamonapi", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "2.4", 
+      "maven_dependency_artifactid": "jamon"
+    }, 
+    {
+      "maven_dependency_groupid": "org.apache.tiles", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "2.0.5", 
+      "maven_dependency_artifactid": "tiles-core"
+    }, 
+    {
+      "maven_dependency_groupid": "c3p0", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "0.9.1.2", 
+      "maven_dependency_artifactid": "c3p0"
+    }, 
+    {
+      "maven_dependency_groupid": "com.oracle", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "1.0", 
+      "maven_dependency_artifactid": "oc4j"
+    }, 
+    {
+      "maven_dependency_groupid": "commons-fileupload", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "1.2", 
+      "maven_dependency_artifactid": "commons-fileupload"
+    }, 
+    {
+      "maven_dependency_groupid": "commons-logging", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "1.1.1", 
+      "maven_dependency_artifactid": "commons-logging"
+    }, 
+    {
+      "maven_dependency_groupid": "junit", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "3.8.1", 
+      "maven_dependency_artifactid": "junit"
+    }, 
+    {
+      "maven_dependency_groupid": "jotm", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "2.0.10", 
+      "maven_dependency_artifactid": "jotm"
+    }, 
+    {
+      "maven_dependency_groupid": "jruby", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "1.0.1", 
+      "maven_dependency_artifactid": "jruby-bin"
+    }, 
+    {
+      "maven_dependency_groupid": "aspectj", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "1.5.4", 
+      "maven_dependency_artifactid": "aspectjweaver"
+    }, 
+    {
+      "maven_dependency_groupid": "commons-httpclient", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "3.1", 
+      "maven_dependency_artifactid": "commons-httpclient"
+    }, 
+    {
+      "maven_dependency_groupid": "com.lowagie", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "2.0.7", 
+      "maven_dependency_artifactid": "itext"
+    }, 
+    {
+      "maven_dependency_groupid": "jexcelapi", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "2.6.6", 
+      "maven_dependency_artifactid": "jxl"
+    }, 
+    {
+      "maven_dependency_groupid": "velocity-tools", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "1.4", 
+      "maven_dependency_artifactid": "velocity-tools-generic"
+    }, 
+    {
+      "maven_dependency_groupid": "velocity-tools", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "1.4", 
+      "maven_dependency_artifactid": "velocity-tools-view"
+    }, 
+    {
+      "maven_dependency_groupid": "commons-dbcp", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "1.2.2", 
+      "maven_dependency_artifactid": "commons-dbcp"
+    }, 
+    {
+      "maven_dependency_groupid": "org.hibernate", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "3.3.2.ga", 
+      "maven_dependency_artifactid": "hibernate-entitymanager"
+    }, 
+    {
+      "maven_dependency_groupid": "velocity", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "1.5", 
+      "maven_dependency_artifactid": "velocity"
+    }, 
+    {
+      "maven_dependency_groupid": "aspectj", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "1.5.4", 
+      "maven_dependency_artifactid": "aspectjrt"
+    }, 
+    {
+      "maven_dependency_groupid": "struts", 
+      "maven_dependency_scope": "compile", 
+      "maven_dependency_version": "1.2.9", 
+      "maven_dependency_artifactid": "struts"
+    }, 
+    {
+      "maven_dependency_groupid": "javax.servlet", 
+      "maven_dependency_scope": "provided", 
+      "maven_dependency_version": "2.0", 
+      "maven_dependency_artifactid": "jsp-api"
+    }, 
+    {
+      "maven_dependency_groupid": "javax.resource", 
+      "maven_dependency_scope": "provided", 
+      "maven_dependency_version": "1.5", 
+      "maven_dependency_artifactid": "connector-api"
+    }, 
+    {
+      "maven_dependency_groupid": "javax.mail", 
+      "maven_dependency_scope": "provided", 
+      "maven_dependency_version": "1.4", 
+      "maven_dependency_artifactid": "mail"
+    }, 
+    {
+      "maven_dependency_groupid": "javax.jms", 
+      "maven_dependency_scope": "provided", 
+      "maven_dependency_version": "1.1", 
+      "maven_dependency_artifactid": "jms"
+    }, 
+    {
+      "maven_dependency_groupid": "javax.activation", 
+      "maven_dependency_scope": "provided", 
+      "maven_dependency_version": "1.1", 
+      "maven_dependency_artifactid": "activation"
+    }, 
+    {
+      "maven_dependency_groupid": "javax.servlet", 
+      "maven_dependency_scope": "provided", 
+      "maven_dependency_version": "1.1.0", 
+      "maven_dependency_artifactid": "jstl"
+    }, 
+    {
+      "maven_dependency_groupid": "javax.portlet", 
+      "maven_dependency_scope": "provided", 
+      "maven_dependency_version": "1.0", 
+      "maven_dependency_artifactid": "portlet-api"
+    }, 
+    {
+      "maven_dependency_groupid": "javax.xml", 
+      "maven_dependency_scope": "provided", 
+      "maven_dependency_version": "1.1", 
+      "maven_dependency_artifactid": "jaxrpc-api"
+    }, 
+    {
+      "maven_dependency_groupid": "javax.faces", 
+      "maven_dependency_scope": "provided", 
+      "maven_dependency_version": "1.1", 
+      "maven_dependency_artifactid": "jsf-api"
+    }, 
+    {
+      "maven_dependency_groupid": "javax.persistence", 
+      "maven_dependency_scope": "provided", 
+      "maven_dependency_version": "1.0", 
+      "maven_dependency_artifactid": "persistence-api"
+    }, 
+    {
+      "maven_dependency_groupid": "javax.servlet", 
+      "maven_dependency_scope": "provided", 
+      "maven_dependency_version": "2.4", 
+      "maven_dependency_artifactid": "servlet-api"
+    }, 
+    {
+      "maven_dependency_groupid": "javax.ejb", 
+      "maven_dependency_scope": "provided", 
+      "maven_dependency_version": "3.0", 
+      "maven_dependency_artifactid": "ejb"
+    }, 
+    {
+      "maven_dependency_groupid": "javax.jdo", 
+      "maven_dependency_scope": "provided", 
+      "maven_dependency_version": "2.0", 
+      "maven_dependency_artifactid": "jdo2-api"
+    }, 
+    {
+      "maven_dependency_groupid": "javax.transaction", 
+      "maven_dependency_scope": "provided", 
+      "maven_dependency_version": "1.1", 
+      "maven_dependency_artifactid": "jta"
+    }
+  ], 
   "maven_repository_url_1": [], 
   "maven_repository_name": [], 
   "maven_component_classifier": [], 

@@ -41,6 +41,7 @@ from typecode import contenttype
 
 from packagedcode import xmlutils
 from packagedcode import models
+from lxml.etree import XMLSyntaxError
 
 
 logger = logging.getLogger(__name__)
@@ -499,6 +500,24 @@ def parse_pom(location, fields=MAVEN_FIELDS):
     logger.debug('###parse_pom: {pom}'.format(**locals()))
     if not pom:
         return {}
+
+    maven_dependencies = []
+    try:
+        pymaven = PyMaven(location)
+        for scope, scope_set in pymaven.dependencies.items():
+            for elements in scope_set:
+                for element in elements:
+                    if isinstance(element, tuple) and len(element) == 3:
+                        maven_dependencies.append({'maven_dependency_groupid': element[0],
+                                                   'maven_dependency_artifactid': element[1],
+                                                   'maven_dependency_version': element[2],
+                                                   'maven_dependency_scope': scope
+                                                   })
+    except Exception, e:
+        msg = ('Failed error:\n%(e)r' % locals())
+        logger.debug('   resolve_dependency: ' + msg)
+
+    pom['maven_dependencies'] = maven_dependencies
     return pom
 
 

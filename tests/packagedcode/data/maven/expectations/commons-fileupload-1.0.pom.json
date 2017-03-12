@@ -6,6 +6,20 @@
   ], 
   "maven_project_short_description_1": [], 
   "maven_license_url": [], 
+  "maven_dependencies": [
+    {
+      "maven_dependency_groupid": "junit", 
+      "maven_dependency_scope": "test", 
+      "maven_dependency_version": "3.8.1", 
+      "maven_dependency_artifactid": "junit"
+    }, 
+    {
+      "maven_dependency_groupid": "servletapi", 
+      "maven_dependency_scope": "provided", 
+      "maven_dependency_version": "2.3", 
+      "maven_dependency_artifactid": "servletapi"
+    }
+  ], 
   "maven_repository_url_1": [], 
   "maven_repository_name": [], 
   "maven_component_classifier": [], 
