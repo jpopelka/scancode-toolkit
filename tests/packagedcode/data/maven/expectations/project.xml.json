@@ -8,64 +8,64 @@
   "maven_license_url": [], 
   "maven_dependencies": [
     {
-      "maven_dependency_groupid": "gnu-regexp", 
+      "maven_dependency_group_id": "gnu-regexp", 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "1.1.4", 
-      "maven_dependency_artifactid": "gnu-regexp"
+      "maven_dependency_artifact_id": "gnu-regexp"
     }, 
     {
-      "maven_dependency_groupid": "ant", 
+      "maven_dependency_group_id": "ant", 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "1.5.3-1", 
-      "maven_dependency_artifactid": "ant"
+      "maven_dependency_artifact_id": "ant"
     }, 
     {
-      "maven_dependency_groupid": "xerces", 
+      "maven_dependency_group_id": "xerces", 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "2.4.0", 
-      "maven_dependency_artifactid": "xerces"
+      "maven_dependency_artifact_id": "xerces"
     }, 
     {
-      "maven_dependency_groupid": "jdom", 
+      "maven_dependency_group_id": "jdom", 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "b10", 
-      "maven_dependency_artifactid": "jdom"
+      "maven_dependency_artifact_id": "jdom"
     }, 
     {
-      "maven_dependency_groupid": "abbot", 
+      "maven_dependency_group_id": "abbot", 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "0.13.0", 
-      "maven_dependency_artifactid": "abbot"
+      "maven_dependency_artifact_id": "abbot"
     }, 
     {
-      "maven_dependency_groupid": "xerces", 
+      "maven_dependency_group_id": "xerces", 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "2.2.1", 
-      "maven_dependency_artifactid": "xmlParserAPIs"
+      "maven_dependency_artifact_id": "xmlParserAPIs"
     }, 
     {
-      "maven_dependency_groupid": "commons-jelly", 
+      "maven_dependency_group_id": "commons-jelly", 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "20030211.142705", 
-      "maven_dependency_artifactid": "commons-jelly-tags-xml"
+      "maven_dependency_artifact_id": "commons-jelly-tags-xml"
     }, 
     {
-      "maven_dependency_groupid": "junit", 
+      "maven_dependency_group_id": "junit", 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "3.8.1", 
-      "maven_dependency_artifactid": "junit"
+      "maven_dependency_artifact_id": "junit"
     }, 
     {
-      "maven_dependency_groupid": "mrj", 
+      "maven_dependency_group_id": "mrj", 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "1.0", 
-      "maven_dependency_artifactid": "MRJToolkitStubs"
+      "maven_dependency_artifact_id": "MRJToolkitStubs"
     }, 
     {
-      "maven_dependency_groupid": "ant", 
+      "maven_dependency_group_id": "ant", 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "1.5.3-1", 
-      "maven_dependency_artifactid": "ant-optional"
+      "maven_dependency_artifact_id": "ant-optional"
     }
   ], 
   "maven_repository_url_1": [

@@ -12,40 +12,40 @@
   ], 
   "maven_dependencies": [
     {
-      "maven_dependency_groupid": "bloxx", 
+      "maven_dependency_group_id": "bloxx", 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "0.30-SNAPSHOT", 
-      "maven_dependency_artifactid": "juno"
+      "maven_dependency_artifact_id": "juno"
     }, 
     {
-      "maven_dependency_groupid": "junit", 
+      "maven_dependency_group_id": "junit", 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "3.8.1", 
-      "maven_dependency_artifactid": "junit"
+      "maven_dependency_artifact_id": "junit"
     }, 
     {
-      "maven_dependency_groupid": "asm", 
+      "maven_dependency_group_id": "asm", 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "2.1", 
-      "maven_dependency_artifactid": "asm"
+      "maven_dependency_artifact_id": "asm"
     }, 
     {
-      "maven_dependency_groupid": "asm", 
+      "maven_dependency_group_id": "asm", 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "2.1", 
-      "maven_dependency_artifactid": "asm-commons"
+      "maven_dependency_artifact_id": "asm-commons"
     }, 
     {
-      "maven_dependency_groupid": "asm", 
+      "maven_dependency_group_id": "asm", 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "2.1", 
-      "maven_dependency_artifactid": "asm-attrs"
+      "maven_dependency_artifact_id": "asm-attrs"
     }, 
     {
-      "maven_dependency_groupid": "asm", 
+      "maven_dependency_group_id": "asm", 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "2.1", 
-      "maven_dependency_artifactid": "asm-tree"
+      "maven_dependency_artifact_id": "asm-tree"
     }
   ], 
   "maven_repository_url_1": [

@@ -8,64 +8,68 @@
   "maven_license_url": [], 
   "maven_dependencies": [
     {
-      "maven_dependency_groupid": "com.adobe.flexunit", 
+      "maven_dependency_group_id": "com.adobe.flexunit", 
       "maven_dependency_scope": "test", 
       "maven_dependency_version": "${flexUnit.version}", 
-      "maven_dependency_artifactid": "flexunit-optional"
+      "maven_dependency_artifact_id": "flexunit-optional"
     }, 
     {
-      "maven_dependency_groupid": "info.flex-mojos", 
+      "maven_dependency_group_id": "info.flex-mojos", 
       "maven_dependency_scope": "test", 
       "maven_dependency_version": "${flex-mojos.version}", 
-      "maven_dependency_artifactid": "testing-support"
+      "maven_dependency_artifact_id": "testing-support"
     }, 
     {
-      "maven_dependency_groupid": "com.adobe.flexunit", 
+      "maven_dependency_group_id": "com.adobe.flexunit", 
       "maven_dependency_scope": "test", 
       "maven_dependency_version": "${flexUnit.version}", 
-      "maven_dependency_artifactid": "flexunit"
+      "maven_dependency_artifact_id": "flexunit"
     }, 
     {
-      "maven_dependency_groupid": "${project.groupId}", 
+      "maven_dependency_group_id": [
+        "com.adobe.ac.samples.lcds"
+      ], 
       "maven_dependency_scope": "provided", 
       "maven_dependency_version": "None", 
-      "maven_dependency_artifactid": "blazeds_service_config"
+      "maven_dependency_artifact_id": "blazeds_service_config"
     }, 
     {
-      "maven_dependency_groupid": "${project.groupId}", 
+      "maven_dependency_group_id": [
+        "com.adobe.ac.samples.lcds"
+      ], 
       "maven_dependency_scope": "internal", 
       "maven_dependency_version": "None", 
-      "maven_dependency_artifactid": "flex_remoted_objects"
+      "maven_dependency_artifact_id": "flex_remoted_objects"
     }, 
     {
-      "maven_dependency_groupid": "com.adobe.flex.framework", 
+      "maven_dependency_group_id": "com.adobe.flex.framework", 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "${flex.sdk.version}", 
-      "maven_dependency_artifactid": "flex-framework"
+      "maven_dependency_artifact_id": "flex-framework"
     }, 
     {
-      "maven_dependency_groupid": "com.adobe.cairngorm", 
+      "maven_dependency_group_id": "com.adobe.cairngorm", 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "${cairngorm.version}", 
-      "maven_dependency_artifactid": "cairngorm"
+      "maven_dependency_artifact_id": "cairngorm"
     }, 
     {
-      "maven_dependency_groupid": "com.adobe.lcds", 
+      "maven_dependency_group_id": "com.adobe.lcds", 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "${lcds.version}", 
-      "maven_dependency_artifactid": "fds"
+      "maven_dependency_artifact_id": "fds"
     }, 
     {
-      "maven_dependency_groupid": "com.adobe.flex", 
+      "maven_dependency_group_id": "com.adobe.flex", 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "${flex.sdk.version}", 
-      "maven_dependency_artifactid": "compiler"
+      "maven_dependency_artifact_id": "compiler"
     }, 
     {
-      "maven_dependency_groupid": "com.adobe.cairngorm", 
+      "maven_dependency_group_id": "com.adobe.cairngorm", 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "${cairngorm.version}", 
-      "maven_dependency_artifactid": "cairngorm-enterprise"
+      "maven_dependency_artifact_id": "cairngorm-enterprise"
     }
   ], 
   "maven_repository_url_1": [], 

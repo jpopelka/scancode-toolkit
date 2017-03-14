@@ -8,22 +8,22 @@
   "maven_license_url": [], 
   "maven_dependencies": [
     {
-      "maven_dependency_groupid": "org.apache.ant", 
+      "maven_dependency_group_id": "org.apache.ant", 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "1.7.0", 
-      "maven_dependency_artifactid": "ant"
+      "maven_dependency_artifact_id": "ant"
     }, 
     {
-      "maven_dependency_groupid": "javax.media", 
+      "maven_dependency_group_id": "javax.media", 
       "maven_dependency_scope": "provided", 
       "maven_dependency_version": "1.1.2_01", 
-      "maven_dependency_artifactid": "jai-core"
+      "maven_dependency_artifact_id": "jai-core"
     }, 
     {
-      "maven_dependency_groupid": "jai", 
+      "maven_dependency_group_id": "jai", 
       "maven_dependency_scope": "provided", 
       "maven_dependency_version": "1.1.2.1", 
-      "maven_dependency_artifactid": "jai-codec"
+      "maven_dependency_artifact_id": "jai-codec"
     }
   ], 
   "maven_repository_url_1": [], 

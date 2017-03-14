@@ -8,16 +8,16 @@
   "maven_license_url": [], 
   "maven_dependencies": [
     {
-      "maven_dependency_groupid": "junit", 
+      "maven_dependency_group_id": "junit", 
       "maven_dependency_scope": "test", 
       "maven_dependency_version": "3.8.1", 
-      "maven_dependency_artifactid": "junit"
+      "maven_dependency_artifact_id": "junit"
     }, 
     {
-      "maven_dependency_groupid": "servletapi", 
+      "maven_dependency_group_id": "servletapi", 
       "maven_dependency_scope": "provided", 
       "maven_dependency_version": "2.3", 
-      "maven_dependency_artifactid": "servletapi"
+      "maven_dependency_artifact_id": "servletapi"
     }
   ], 
   "maven_repository_url_1": [], 

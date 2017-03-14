@@ -8,16 +8,16 @@
   "maven_license_url": [], 
   "maven_dependencies": [
     {
-      "maven_dependency_groupid": "org.apache.ant", 
+      "maven_dependency_group_id": "org.apache.ant", 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "1.7.0", 
-      "maven_dependency_artifactid": "ant"
+      "maven_dependency_artifact_id": "ant"
     }, 
     {
-      "maven_dependency_groupid": "com.jcraft", 
+      "maven_dependency_group_id": "com.jcraft", 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "0.1.29", 
-      "maven_dependency_artifactid": "jsch"
+      "maven_dependency_artifact_id": "jsch"
     }
   ], 
   "maven_repository_url_1": [], 

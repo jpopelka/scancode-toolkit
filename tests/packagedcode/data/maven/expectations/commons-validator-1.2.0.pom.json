@@ -12,40 +12,40 @@
   ], 
   "maven_dependencies": [
     {
-      "maven_dependency_groupid": "commons-beanutils", 
+      "maven_dependency_group_id": "commons-beanutils", 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "1.7.0", 
-      "maven_dependency_artifactid": "commons-beanutils"
+      "maven_dependency_artifact_id": "commons-beanutils"
     }, 
     {
-      "maven_dependency_groupid": "xml-apis", 
+      "maven_dependency_group_id": "xml-apis", 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "2.0.2", 
-      "maven_dependency_artifactid": "xml-apis"
+      "maven_dependency_artifact_id": "xml-apis"
     }, 
     {
-      "maven_dependency_groupid": "oro", 
+      "maven_dependency_group_id": "oro", 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "2.0.8", 
-      "maven_dependency_artifactid": "oro"
+      "maven_dependency_artifact_id": "oro"
     }, 
     {
-      "maven_dependency_groupid": "commons-digester", 
+      "maven_dependency_group_id": "commons-digester", 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "1.6", 
-      "maven_dependency_artifactid": "commons-digester"
+      "maven_dependency_artifact_id": "commons-digester"
     }, 
     {
-      "maven_dependency_groupid": "commons-logging", 
+      "maven_dependency_group_id": "commons-logging", 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "1.0.4", 
-      "maven_dependency_artifactid": "commons-logging"
+      "maven_dependency_artifact_id": "commons-logging"
     }, 
     {
-      "maven_dependency_groupid": "junit", 
+      "maven_dependency_group_id": "junit", 
       "maven_dependency_scope": "test", 
       "maven_dependency_version": "3.8.1", 
-      "maven_dependency_artifactid": "junit"
+      "maven_dependency_artifact_id": "junit"
     }
   ], 
   "maven_repository_url_1": [], 
