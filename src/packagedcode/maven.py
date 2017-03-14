@@ -485,6 +485,23 @@ def pom_version(location):
                     return 1
 
 
+MAVEN_VARIABLES_MAP = {'${project.groupId}': 'maven_component_group_id',
+                       '${project.artifactId}':'maven_component_artifact_id',
+                       '${project.version}': 'maven_component_version',
+                       '${version}': 'maven_component_version',
+                       }
+
+
+def replace_variables_in_pom(variable, pom):
+    if not variable:
+        return variable
+    mapped_key = MAVEN_VARIABLES_MAP.get(variable)
+    if mapped_key:
+        if pom.get(mapped_key):
+            return pom.get(mapped_key)
+    return variable
+
+
 def parse_pom(location, fields=MAVEN_FIELDS):
     """
     Parse the Maven POM object for the file at location using a `fields` mapping
@@ -508,11 +525,14 @@ def parse_pom(location, fields=MAVEN_FIELDS):
             for elements in scope_set:
                 for element in elements:
                     if isinstance(element, tuple) and len(element) == 3:
-                        maven_dependencies.append({'maven_dependency_groupid': element[0],
-                                                   'maven_dependency_artifactid': element[1],
-                                                   'maven_dependency_version': element[2],
-                                                   'maven_dependency_scope': scope
-                                                   })
+                        maven_dependencies.append({'maven_dependency_group_id': replace_variables_in_pom(
+                            element[0], pom),
+                            'maven_dependency_artifact_id': replace_variables_in_pom(
+                            element[1], pom),
+                            'maven_dependency_version': replace_variables_in_pom(
+                            element[2], pom),
+                            'maven_dependency_scope': scope
+                        })
     except Exception, e:
         msg = ('Failed error:\n%(e)r' % locals())
         logger.debug('   resolve_dependency: ' + msg)

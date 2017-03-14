@@ -12,28 +12,28 @@
   ], 
   "maven_dependencies": [
     {
-      "maven_dependency_groupid": "com.sun.xml.bind", 
+      "maven_dependency_group_id": "com.sun.xml.bind", 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "2.1.11", 
-      "maven_dependency_artifactid": "jaxb-xjc"
+      "maven_dependency_artifact_id": "jaxb-xjc"
     }, 
     {
-      "maven_dependency_groupid": "com.sun.xsom", 
+      "maven_dependency_group_id": "com.sun.xsom", 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "20081112", 
-      "maven_dependency_artifactid": "xsom"
+      "maven_dependency_artifact_id": "xsom"
     }, 
     {
-      "maven_dependency_groupid": "relaxngDatatype", 
+      "maven_dependency_group_id": "relaxngDatatype", 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "20020414", 
-      "maven_dependency_artifactid": "relaxngDatatype"
+      "maven_dependency_artifact_id": "relaxngDatatype"
     }, 
     {
-      "maven_dependency_groupid": "com.sun.xml.bind", 
+      "maven_dependency_group_id": "com.sun.xml.bind", 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "2.1.11", 
-      "maven_dependency_artifactid": "jaxb-impl"
+      "maven_dependency_artifact_id": "jaxb-impl"
     }
   ], 
   "maven_repository_url_1": [], 

@@ -10,10 +10,10 @@
   "maven_license_url": [], 
   "maven_dependencies": [
     {
-      "maven_dependency_groupid": "org.mockito", 
+      "maven_dependency_group_id": "org.mockito", 
       "maven_dependency_scope": "test", 
       "maven_dependency_version": "1.8.1", 
-      "maven_dependency_artifactid": "mockito-all"
+      "maven_dependency_artifact_id": "mockito-all"
     }
   ], 
   "maven_repository_url_1": [], 

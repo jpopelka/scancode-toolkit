@@ -8,58 +8,58 @@
   "maven_license_url": [], 
   "maven_dependencies": [
     {
-      "maven_dependency_groupid": "org.hibernate", 
+      "maven_dependency_group_id": "org.hibernate", 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "3.3.2.Beta1", 
-      "maven_dependency_artifactid": "ejb3-persistence"
+      "maven_dependency_artifact_id": "ejb3-persistence"
     }, 
     {
-      "maven_dependency_groupid": "commons-lang", 
+      "maven_dependency_group_id": "commons-lang", 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "2.0", 
-      "maven_dependency_artifactid": "commons-lang"
+      "maven_dependency_artifact_id": "commons-lang"
     }, 
     {
-      "maven_dependency_groupid": "org.hibernate", 
+      "maven_dependency_group_id": "org.hibernate", 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "3.4.0.GA", 
-      "maven_dependency_artifactid": "hibernate-entitymanager"
+      "maven_dependency_artifact_id": "hibernate-entitymanager"
     }, 
     {
-      "maven_dependency_groupid": "dom4j", 
+      "maven_dependency_group_id": "dom4j", 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "1.6.1", 
-      "maven_dependency_artifactid": "dom4j"
+      "maven_dependency_artifact_id": "dom4j"
     }, 
     {
-      "maven_dependency_groupid": "org.apache.ant", 
+      "maven_dependency_group_id": "org.apache.ant", 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "1.7.0", 
-      "maven_dependency_artifactid": "ant"
+      "maven_dependency_artifact_id": "ant"
     }, 
     {
-      "maven_dependency_groupid": "postgresql", 
+      "maven_dependency_group_id": "postgresql", 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "8.3-603.jdbc4", 
-      "maven_dependency_artifactid": "postgresql"
+      "maven_dependency_artifact_id": "postgresql"
     }, 
     {
-      "maven_dependency_groupid": "org.hibernate", 
+      "maven_dependency_group_id": "org.hibernate", 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "3.4.0.GA", 
-      "maven_dependency_artifactid": "hibernate-annotations"
+      "maven_dependency_artifact_id": "hibernate-annotations"
     }, 
     {
-      "maven_dependency_groupid": "org.slf4j", 
+      "maven_dependency_group_id": "org.slf4j", 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "1.4.2", 
-      "maven_dependency_artifactid": "slf4j-jcl"
+      "maven_dependency_artifact_id": "slf4j-jcl"
     }, 
     {
-      "maven_dependency_groupid": "commons-digester", 
+      "maven_dependency_group_id": "commons-digester", 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "2.0", 
-      "maven_dependency_artifactid": "commons-digester"
+      "maven_dependency_artifact_id": "commons-digester"
     }
   ], 
   "maven_repository_url_1": [], 

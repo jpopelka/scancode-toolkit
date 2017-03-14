@@ -12,100 +12,114 @@
   ], 
   "maven_dependencies": [
     {
-      "maven_dependency_groupid": "com.oracle", 
+      "maven_dependency_group_id": "com.oracle", 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "2.41", 
-      "maven_dependency_artifactid": "toplink-essentials"
+      "maven_dependency_artifact_id": "toplink-essentials"
     }, 
     {
-      "maven_dependency_groupid": "org.hibernate", 
+      "maven_dependency_group_id": "org.hibernate", 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "3.3.1.ga", 
-      "maven_dependency_artifactid": "hibernate-entitymanager"
+      "maven_dependency_artifact_id": "hibernate-entitymanager"
     }, 
     {
-      "maven_dependency_groupid": "${project.groupId}", 
+      "maven_dependency_group_id": [
+        "org.springframework"
+      ], 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "None", 
-      "maven_dependency_artifactid": "spring-core"
+      "maven_dependency_artifact_id": "spring-core"
     }, 
     {
-      "maven_dependency_groupid": "${project.groupId}", 
+      "maven_dependency_group_id": [
+        "org.springframework"
+      ], 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "None", 
-      "maven_dependency_artifactid": "spring-jdbc"
+      "maven_dependency_artifact_id": "spring-jdbc"
     }, 
     {
-      "maven_dependency_groupid": "org.hibernate", 
+      "maven_dependency_group_id": "org.hibernate", 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "3.2.6.ga", 
-      "maven_dependency_artifactid": "hibernate"
+      "maven_dependency_artifact_id": "hibernate"
     }, 
     {
-      "maven_dependency_groupid": "${project.groupId}", 
+      "maven_dependency_group_id": [
+        "org.springframework"
+      ], 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "None", 
-      "maven_dependency_artifactid": "spring-beans"
+      "maven_dependency_artifact_id": "spring-beans"
     }, 
     {
-      "maven_dependency_groupid": "aopalliance", 
+      "maven_dependency_group_id": "aopalliance", 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "1.0", 
-      "maven_dependency_artifactid": "aopalliance"
+      "maven_dependency_artifact_id": "aopalliance"
     }, 
     {
-      "maven_dependency_groupid": "${project.groupId}", 
+      "maven_dependency_group_id": [
+        "org.springframework"
+      ], 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "None", 
-      "maven_dependency_artifactid": "spring-web"
+      "maven_dependency_artifact_id": "spring-web"
     }, 
     {
-      "maven_dependency_groupid": "com.oracle.toplink", 
+      "maven_dependency_group_id": "com.oracle.toplink", 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "10.1.3", 
-      "maven_dependency_artifactid": "toplink"
+      "maven_dependency_artifact_id": "toplink"
     }, 
     {
-      "maven_dependency_groupid": "${project.groupId}", 
+      "maven_dependency_group_id": [
+        "org.springframework"
+      ], 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "None", 
-      "maven_dependency_artifactid": "spring-context"
+      "maven_dependency_artifact_id": "spring-context"
     }, 
     {
-      "maven_dependency_groupid": "${project.groupId}", 
+      "maven_dependency_group_id": [
+        "org.springframework"
+      ], 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "None", 
-      "maven_dependency_artifactid": "spring-aop"
+      "maven_dependency_artifact_id": "spring-aop"
     }, 
     {
-      "maven_dependency_groupid": "org.apache.ibatis", 
+      "maven_dependency_group_id": "org.apache.ibatis", 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "2.3.0", 
-      "maven_dependency_artifactid": "ibatis-sqlmap"
+      "maven_dependency_artifact_id": "ibatis-sqlmap"
     }, 
     {
-      "maven_dependency_groupid": "${project.groupId}", 
+      "maven_dependency_group_id": [
+        "org.springframework"
+      ], 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "None", 
-      "maven_dependency_artifactid": "spring-tx"
+      "maven_dependency_artifact_id": "spring-tx"
     }, 
     {
-      "maven_dependency_groupid": "commons-logging", 
+      "maven_dependency_group_id": "commons-logging", 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "1.1.1", 
-      "maven_dependency_artifactid": "commons-logging"
+      "maven_dependency_artifact_id": "commons-logging"
     }, 
     {
-      "maven_dependency_groupid": "javax.persistence", 
+      "maven_dependency_group_id": "javax.persistence", 
       "maven_dependency_scope": "provided", 
       "maven_dependency_version": "1.0", 
-      "maven_dependency_artifactid": "persistence-api"
+      "maven_dependency_artifact_id": "persistence-api"
     }, 
     {
-      "maven_dependency_groupid": "javax.jdo", 
+      "maven_dependency_group_id": "javax.jdo", 
       "maven_dependency_scope": "provided", 
       "maven_dependency_version": "2.0", 
-      "maven_dependency_artifactid": "jdo2-api"
+      "maven_dependency_artifact_id": "jdo2-api"
     }
   ], 
   "maven_repository_url_1": [], 

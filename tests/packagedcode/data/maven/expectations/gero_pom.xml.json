@@ -8,10 +8,10 @@
   "maven_license_url": [], 
   "maven_dependencies": [
     {
-      "maven_dependency_groupid": "org.apache.axis", 
+      "maven_dependency_group_id": "org.apache.axis", 
       "maven_dependency_scope": "compile", 
       "maven_dependency_version": "1.4", 
-      "maven_dependency_artifactid": "axis"
+      "maven_dependency_artifact_id": "axis"
     }
   ], 
   "maven_repository_url_1": [], 
