@@ -493,6 +493,12 @@ MAVEN_VARIABLES_MAP = {'${project.groupId}': 'maven_component_group_id',
 
 
 def replace_variables_in_pom(variable, pom):
+    """
+    Return the mapped variable value from the passed pom dictionary.
+    The passing variable could be '${project.artifactId}',  and it would be 
+    mapped to maven_component_artifact_id first, and then search by key-value
+    from the dictionary pom.
+    """
     if not variable:
         return variable
     mapped_key = MAVEN_VARIABLES_MAP.get(variable)
@@ -536,8 +542,8 @@ def parse_pom(location, fields=MAVEN_FIELDS):
     except Exception, e:
         msg = ('Failed error:\n%(e)r' % locals())
         logger.debug('   resolve_dependency: ' + msg)
-
     pom['maven_dependencies'] = maven_dependencies
+
     return pom
 
 
