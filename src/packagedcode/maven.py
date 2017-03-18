@@ -527,6 +527,8 @@ def parse_pom(location, fields=MAVEN_FIELDS):
     maven_dependencies = []
     try:
         pymaven = PyMaven(location)
+        # pymaven.dependencies returns a dictionary, the format is like this:
+        # {'compile': set([(('org.codehaus.plexus', 'plexus-classworlds', 'latest.release'), True), (('org.codehaus.plexus', 'plexus-utils', 'latest.release'), True)]), 'test': set([(('jmock', 'jmock', '1.0.1'), True)])}
         for scope, scope_set in pymaven.dependencies.items():
             for elements in scope_set:
                 for element in elements:
@@ -541,7 +543,7 @@ def parse_pom(location, fields=MAVEN_FIELDS):
                         })
     except Exception, e:
         msg = ('Failed error:\n%(e)r' % locals())
-        logger.debug('   resolve_dependency: ' + msg)
+        logger.error('Resolve dependency by PyMaven has error: ' + msg)
     pom['maven_dependencies'] = maven_dependencies
 
     return pom
