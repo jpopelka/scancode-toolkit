@@ -1,0 +1,16 @@
+about_resource: pycparser-2.14-cp27-none-any.whl
+download_url: https://pypi.python.org/packages/6d/31/666614af3db0acf377876d48688c5d334b6e493b96d21aa7d332169bee50/pycparser-2.14.tar.gz#md5=a2bc8d28c923b4fe2b2c3b4b51a4f935
+name: pycparser
+version: 2.14
+
+dje_license: bsd-new
+license_text_file: pycparser.LICENSE
+
+copyright: Copyright (c) 2008-2016, Eli Bendersky
+
+author:  Eli Bendersky
+owner:  Eli Bendersky
+home_url: https://github.com/eliben/pycparser
+
+vcs_tool: git
+vcs_repository: https://github.com/eliben/pycparser.git
